@@ -253,6 +253,14 @@ await withAnchorBrowser(async (page) => {
 
 ---
 
+## Known Selectors Reference
+
+> These CSS selectors were observed in Ellucian Banner ERP (INB) web interfaces. Enterprise applications update their UIs — verify against your specific instance and submit PRs when selectors break.
+
+> 🔍 Selector reference not yet documented for Ellucian Banner ERP (INB). [Contribute selectors via PR](https://github.com/Browser-Automation-Hub/ellucian-banner-erp-browser-automation/pulls).
+
+---
+
 ## More Browser Automation Projects
 
 This is part of the **[Browser Automation Hub](https://github.com/Browser-Automation-Hub)** — a collection of open-source browser automation scaffolds for systems with poor or no API support:
