@@ -21,27 +21,16 @@ async function login_banner_inb(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual Ellucian Banner ERP (INB) selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.ELLUCIAN_BANNER_ERP_URL}/path/to/login-banner-inb`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('login_banner_inb complete', result);
-      return result;
-
+      // TODO: Replace with actual Ellucian Banner ERP (INB) selectors
+    // await page.goto(`${process.env.ELLUCIAN_BANNER_ERP_URL}/path/to/login-banner-inb`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('login_banner_inb complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-login_banner_inb-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
@@ -61,27 +50,16 @@ async function navigate_form(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual Ellucian Banner ERP (INB) selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.ELLUCIAN_BANNER_ERP_URL}/path/to/navigate-form`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('navigate_form complete', result);
-      return result;
-
+      // TODO: Replace with actual Ellucian Banner ERP (INB) selectors
+    // await page.goto(`${process.env.ELLUCIAN_BANNER_ERP_URL}/path/to/navigate-form`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('navigate_form complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-navigate_form-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
@@ -101,27 +79,16 @@ async function extract_student_data(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual Ellucian Banner ERP (INB) selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.ELLUCIAN_BANNER_ERP_URL}/path/to/extract-student-data`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('extract_student_data complete', result);
-      return result;
-
+      // TODO: Replace with actual Ellucian Banner ERP (INB) selectors
+    // await page.goto(`${process.env.ELLUCIAN_BANNER_ERP_URL}/path/to/extract-student-data`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('extract_student_data complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-extract_student_data-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
@@ -141,27 +108,16 @@ async function process_finance(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual Ellucian Banner ERP (INB) selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.ELLUCIAN_BANNER_ERP_URL}/path/to/process-finance`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('process_finance complete', result);
-      return result;
-
+      // TODO: Replace with actual Ellucian Banner ERP (INB) selectors
+    // await page.goto(`${process.env.ELLUCIAN_BANNER_ERP_URL}/path/to/process-finance`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('process_finance complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-process_finance-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
@@ -181,27 +137,16 @@ async function run_job_submission(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual Ellucian Banner ERP (INB) selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.ELLUCIAN_BANNER_ERP_URL}/path/to/run-job-submission`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('run_job_submission complete', result);
-      return result;
-
+      // TODO: Replace with actual Ellucian Banner ERP (INB) selectors
+    // await page.goto(`${process.env.ELLUCIAN_BANNER_ERP_URL}/path/to/run-job-submission`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('run_job_submission complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-run_job_submission-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
