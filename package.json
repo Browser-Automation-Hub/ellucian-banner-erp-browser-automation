@@ -1,7 +1,7 @@
 {
-  "name": "ellucian-banner-erp-browser-automation",
+  "name": "@browser-automation-hub/ellucian-banner-erp-browser-automation",
   "version": "1.0.0",
-  "description": "Browser automation for Ellucian Banner INB (Internet Native Banner) — automate administrative tasks in Banner forms, extract data, and handle complex university workflows.",
+  "description": "Browser automation for Ellucian Banner INB — automate administrative tasks in Banner forms and data extraction",
   "main": "src/actions.js",
   "scripts": {
     "start": "node examples/basic-login.js",
@@ -16,7 +16,7 @@
     "browser-automation",
     "puppeteer",
     "playwright",
-    "anchorbrowser",
+    "anchor-browser",
     "nodejs"
   ],
   "license": "MIT",
@@ -35,5 +35,8 @@
   "homepage": "https://github.com/Browser-Automation-Hub/ellucian-banner-erp-browser-automation#readme",
   "bugs": {
     "url": "https://github.com/Browser-Automation-Hub/ellucian-banner-erp-browser-automation/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
